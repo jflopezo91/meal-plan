@@ -1,13 +1,21 @@
 {
-  "plan_id": "plan_2026_10_19",
-  "revision": 5,
+  "plan_id": "plan_2026_10_26",
+  "revision": 3,
   "sections": {
     "carb": [
       {
-        "display": "Yuca",
-        "ingredient_id": "yuca",
+        "display": "Papa",
+        "ingredient_id": "potato",
         "notes": null,
-        "quantity": 210.0,
+        "quantity": 120.0,
+        "section": "carb",
+        "unit": "g"
+      },
+      {
+        "display": "Plátano maduro",
+        "ingredient_id": "platano_maduro",
+        "notes": null,
+        "quantity": 80.0,
         "section": "carb",
         "unit": "g"
       },
@@ -30,14 +38,6 @@
     ],
     "condiment": [
       {
-        "display": "Aceitunas",
-        "ingredient_id": "olives",
-        "notes": null,
-        "quantity": 60.0,
-        "section": "condiment",
-        "unit": "g"
-      },
-      {
         "display": "Salsa de tomate",
         "ingredient_id": "tomato_sauce",
         "notes": null,
@@ -52,24 +52,6 @@
         "quantity": 5.0,
         "section": "condiment",
         "unit": "g"
-      },
-      {
-        "display": "Miel",
-        "ingredient_id": "honey",
-        "notes": null,
-        "quantity": 15.0,
-        "section": "condiment",
-        "unit": "ml"
-      }
-    ],
-    "dairy": [
-      {
-        "display": "Yogurt griego",
-        "ingredient_id": "greek_yogurt",
-        "notes": null,
-        "quantity": 100.0,
-        "section": "dairy",
-        "unit": "g"
       }
     ],
     "fat": [
@@ -77,17 +59,35 @@
         "display": "Ajonjolí",
         "ingredient_id": "sesame_seeds",
         "notes": null,
-        "quantity": 5.0,
+        "quantity": 10.0,
         "section": "fat",
+        "unit": "g"
+      }
+    ],
+    "produce": [
+      {
+        "display": "Manzana verde",
+        "ingredient_id": "green_apple",
+        "notes": null,
+        "quantity": 180.0,
+        "section": "produce",
         "unit": "g"
       }
     ],
     "protein": [
       {
+        "display": "Carne de res",
+        "ingredient_id": "beef",
+        "notes": null,
+        "quantity": 185.0,
+        "section": "protein",
+        "unit": "g"
+      },
+      {
         "display": "Pollo",
         "ingredient_id": "chicken",
         "notes": null,
-        "quantity": 980.0,
+        "quantity": 350.0,
         "section": "protein",
         "unit": "g"
       },
@@ -95,49 +95,25 @@
         "display": "Salchicha",
         "ingredient_id": "sausage",
         "notes": null,
-        "quantity": 330.0,
+        "quantity": 280.0,
         "section": "protein",
         "unit": "g"
       },
       {
-        "display": "Salmón",
-        "ingredient_id": "fish_salmon",
+        "display": "Atún en filete",
+        "ingredient_id": "fish_tuna_fillet",
         "notes": null,
-        "quantity": 100.0,
-        "section": "protein",
-        "unit": "g"
-      },
-      {
-        "display": "Carne de res",
-        "ingredient_id": "beef",
-        "notes": null,
-        "quantity": 380.0,
-        "section": "protein",
-        "unit": "g"
-      },
-      {
-        "display": "Atún en lata",
-        "ingredient_id": "fish_tuna_canned",
-        "notes": null,
-        "quantity": 100.0,
+        "quantity": 170.0,
         "section": "protein",
         "unit": "g"
       }
     ],
     "vegetable": [
       {
-        "display": "Tomate cherry",
-        "ingredient_id": "cherry_tomato",
+        "display": "Brócoli",
+        "ingredient_id": "broccoli",
         "notes": null,
         "quantity": 200.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
-        "display": "Espinaca",
-        "ingredient_id": "spinach",
-        "notes": null,
-        "quantity": 160.0,
         "section": "vegetable",
         "unit": "g"
       },
@@ -150,18 +126,10 @@
         "unit": "g"
       },
       {
-        "display": "Tomate",
-        "ingredient_id": "tomato",
+        "display": "Pimentón",
+        "ingredient_id": "bell_pepper",
         "notes": null,
-        "quantity": 570.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
-        "display": "Espárragos",
-        "ingredient_id": "asparagus",
-        "notes": null,
-        "quantity": 250.0,
+        "quantity": 180.0,
         "section": "vegetable",
         "unit": "g"
       },
@@ -169,31 +137,55 @@
         "display": "Jengibre",
         "ingredient_id": "ginger",
         "notes": null,
-        "quantity": 10.0,
+        "quantity": 20.0,
         "section": "vegetable",
         "unit": "g"
       },
       {
-        "display": "Habichuela",
-        "ingredient_id": "green_beans",
+        "display": "Espárragos",
+        "ingredient_id": "asparagus",
         "notes": null,
-        "quantity": 170.0,
+        "quantity": 120.0,
         "section": "vegetable",
         "unit": "g"
       },
       {
-        "display": "Brócoli",
-        "ingredient_id": "broccoli",
+        "display": "Cebolla morada",
+        "ingredient_id": "red_onion",
+        "notes": null,
+        "quantity": 220.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Pimentón rojo",
+        "ingredient_id": "red_bell_pepper",
+        "notes": null,
+        "quantity": 120.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Pimentón verde",
+        "ingredient_id": "green_bell_pepper",
+        "notes": null,
+        "quantity": 130.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Apio",
+        "ingredient_id": "celery",
+        "notes": null,
+        "quantity": 120.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Tomate",
+        "ingredient_id": "tomato",
         "notes": null,
         "quantity": 100.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
-        "display": "Pimentón",
-        "ingredient_id": "bell_pepper",
-        "notes": null,
-        "quantity": 140.0,
         "section": "vegetable",
         "unit": "g"
       },
@@ -206,16 +198,16 @@
         "unit": "g"
       },
       {
-        "display": "Zucchini",
-        "ingredient_id": "zucchini",
+        "display": "Habichuela",
+        "ingredient_id": "green_beans",
         "notes": null,
-        "quantity": 100.0,
+        "quantity": 50.0,
         "section": "vegetable",
         "unit": "g"
       }
     ]
   },
-  "snapshot_id": "sha256:d9d1c625464e140a4778fbec31ff43fb0ef1620586c652173da12261d71dd185",
-  "week_end": "2026-10-25",
-  "week_start": "2026-10-19"
+  "snapshot_id": "sha256:2b8afbf371ce4c8e116b17506eaeff73c31f7fa027ae4fd1bff3d2e1b08c1f99",
+  "week_end": "2026-11-01",
+  "week_start": "2026-10-26"
 }
