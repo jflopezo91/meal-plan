@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "publication_id": "pub_20261024T222857Z_051936",
+  "exported_at": "2026-10-24T22:28:57Z",
+  "selected_months": [
+    "2026-10",
+    "2026-11"
+  ],
+  "timezone": "America/Bogota",
+  "plans": [
+    {
+      "summary": {
+        "plan_id": "plan_2026_10_26",
+        "week_start": "2026-10-26",
+        "week_end": "2026-11-01",
+        "timezone": "America/Bogota",
+        "revision": 3,
+        "snapshot_id": "sha256:2b8afbf371ce4c8e116b17506eaeff73c31f7fa027ae4fd1bff3d2e1b08c1f99",
+        "generated_at": "2026-10-24T14:13:02.711767-05:00",
+        "seed": 20261026
+      },
+      "plan_path": "plans/plan_2026_10_26/plan.json",
+      "shopping_path": "plans/plan_2026_10_26/shopping-list.json"
+    },
+    {
+      "summary": {
+        "plan_id": "plan_2026_11_02",
+        "week_start": "2026-11-02",
+        "week_end": "2026-11-08",
+        "timezone": "America/Bogota",
+        "revision": 5,
+        "snapshot_id": "sha256:19c1610d06d9984d384ecb5b0964d0509ec4a1dc997eca2268f0a05bb1c3b6a8",
+        "generated_at": "2026-10-24T14:13:05.520802-05:00",
+        "seed": 20261102
+      },
+      "plan_path": "plans/plan_2026_11_02/plan.json",
+      "shopping_path": "plans/plan_2026_11_02/shopping-list.json"
+    },
+    {
+      "summary": {
+        "plan_id": "plan_2026_11_09",
+        "week_start": "2026-11-09",
+        "week_end": "2026-11-15",
+        "timezone": "America/Bogota",
+        "revision": 5,
+        "snapshot_id": "sha256:0a2834a729a9f164fa54888101ac972770b711211cf21b4303d326521783438f",
+        "generated_at": "2026-10-24T14:13:07.836534-05:00",
+        "seed": 20261109
+      },
+      "plan_path": "plans/plan_2026_11_09/plan.json",
+      "shopping_path": "plans/plan_2026_11_09/shopping-list.json"
+    },
+    {
+      "summary": {
+        "plan_id": "plan_2026_11_16",
+        "week_start": "2026-11-16",
+        "week_end": "2026-11-22",
+        "timezone": "America/Bogota",
+        "revision": 6,
+        "snapshot_id": "sha256:976a4428bdf5e3b4b96d40da3004c715f3ae1fa34269d45fca46602259a764f6",
+        "generated_at": "2026-10-24T14:13:10.321557-05:00",
+        "seed": 20261116
+      },
+      "plan_path": "plans/plan_2026_11_16/plan.json",
+      "shopping_path": "plans/plan_2026_11_16/shopping-list.json"
+    }
+  ],
+  "shopping_trips": [
+    {
+      "trip_id": "trip_06970c82beab4cb5893c8186523096c2",
+      "path": "shopping-trips/trip_06970c82beab4cb5893c8186523096c2.json"
+    }
+  ]
+}
