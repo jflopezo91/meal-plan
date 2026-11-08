@@ -1,10 +1,9 @@
 {
   "derived": {
     "carb_counts": {
-      "pasta": 1,
       "platano_verde": 1,
       "potato": 1,
-      "rice": 2
+      "rice": 3
     },
     "protein_counts": {
       "beef": 2,
@@ -16,7 +15,7 @@
   },
   "generated_at": "2026-10-24T14:13:10.321557-05:00",
   "plan_id": "plan_2026_11_16",
-  "revision": 6,
+  "revision": 8,
   "seed": 20261116,
   "slots": [
     {
@@ -242,7 +241,7 @@
     },
     {
       "assignment_id": "slot_2026-11-18_lunch",
-      "carb": "pasta",
+      "carb": "rice",
       "carb_quantity": {
         "unit": "g",
         "value": 40.0
@@ -259,16 +258,23 @@
           "unit": "g"
         },
         {
-          "display": "Champiñones",
-          "ingredient_id": "mushroom",
-          "quantity": 150.0,
+          "display": "Tomate cherry",
+          "ingredient_id": "cherry_tomato",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Espinaca",
+          "ingredient_id": "spinach",
+          "quantity": 80.0,
           "role": "veg",
           "unit": "g"
         },
         {
           "display": "Cebolla cabezona",
           "ingredient_id": "onion",
-          "quantity": 80.0,
+          "quantity": 50.0,
           "role": "veg",
           "unit": "g"
         },
@@ -287,32 +293,25 @@
           "unit": "g"
         },
         {
-          "display": "Perejil",
-          "ingredient_id": "parsley",
+          "display": "Aceitunas",
+          "ingredient_id": "olives",
+          "quantity": 30.0,
+          "role": "other",
+          "unit": "g"
+        },
+        {
+          "display": "Albahaca",
+          "ingredient_id": "basil",
           "quantity": 5.0,
           "role": "herb",
           "unit": "g"
         },
         {
-          "display": "Tomillo",
-          "ingredient_id": "thyme",
-          "quantity": 2.0,
-          "role": "herb",
-          "unit": "g"
-        },
-        {
-          "display": "Laurel",
-          "ingredient_id": "bay_leaf",
-          "quantity": 2.0,
-          "role": "spice",
-          "unit": "units"
-        },
-        {
-          "display": "Crema de leche",
-          "ingredient_id": "heavy_cream",
-          "quantity": 80.0,
+          "display": "Yogurt griego",
+          "ingredient_id": "greek_yogurt",
+          "quantity": 50.0,
           "role": "dairy",
-          "unit": "ml"
+          "unit": "g"
         },
         {
           "display": "Aceite de oliva",
@@ -322,8 +321,8 @@
           "unit": "ml"
         },
         {
-          "display": "Pasta",
-          "ingredient_id": "pasta",
+          "display": "Arroz",
+          "ingredient_id": "rice",
           "quantity": 40.0,
           "role": "carb",
           "unit": "g"
@@ -336,9 +335,9 @@
         "unit": "g",
         "value": 175.0
       },
-      "recipe_id": "chicken_fricassee",
-      "recipe_name": "Chicken Fricassée",
-      "variant_id": "chicken_fricassee__carb_pasta"
+      "recipe_id": "pollo_toscano_lunch",
+      "recipe_name": "Pollo toscano",
+      "variant_id": "pollo_toscano_lunch__carb_rice"
     },
     {
       "assignment_id": "slot_2026-11-19_lunch",
@@ -541,7 +540,7 @@
       "variant_id": "arroz_con_pollo__carb_rice"
     }
   ],
-  "snapshot_id": "sha256:976a4428bdf5e3b4b96d40da3004c715f3ae1fa34269d45fca46602259a764f6",
+  "snapshot_id": "sha256:689558f05f4070921bf156c9bfc3fe7e63c98f1cdb887880b2070868f870ffa7",
   "timezone": "America/Bogota",
   "week_end": "2026-11-22",
   "week_start": "2026-11-16"

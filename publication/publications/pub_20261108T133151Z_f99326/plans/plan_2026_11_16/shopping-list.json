@@ -1,6 +1,6 @@
 {
   "plan_id": "plan_2026_11_16",
-  "revision": 6,
+  "revision": 8,
   "sections": {
     "carb": [
       {
@@ -15,7 +15,7 @@
         "display": "Arroz",
         "ingredient_id": "rice",
         "notes": null,
-        "quantity": 80.0,
+        "quantity": 120.0,
         "section": "carb",
         "unit": "g"
       },
@@ -24,14 +24,6 @@
         "ingredient_id": "platano_verde",
         "notes": null,
         "quantity": 100.0,
-        "section": "carb",
-        "unit": "g"
-      },
-      {
-        "display": "Pasta",
-        "ingredient_id": "pasta",
-        "notes": null,
-        "quantity": 40.0,
         "section": "carb",
         "unit": "g"
       }
@@ -52,6 +44,14 @@
         "quantity": 5.0,
         "section": "condiment",
         "unit": "g"
+      },
+      {
+        "display": "Aceitunas",
+        "ingredient_id": "olives",
+        "notes": null,
+        "quantity": 30.0,
+        "section": "condiment",
+        "unit": "g"
       }
     ],
     "dairy": [
@@ -64,12 +64,12 @@
         "unit": "ml"
       },
       {
-        "display": "Crema de leche",
-        "ingredient_id": "heavy_cream",
+        "display": "Yogurt griego",
+        "ingredient_id": "greek_yogurt",
         "notes": null,
-        "quantity": 80.0,
+        "quantity": 50.0,
         "section": "dairy",
-        "unit": "ml"
+        "unit": "g"
       }
     ],
     "fat": [
@@ -192,16 +192,24 @@
         "unit": "g"
       },
       {
-        "display": "Champiñones",
-        "ingredient_id": "mushroom",
+        "display": "Tomate cherry",
+        "ingredient_id": "cherry_tomato",
         "notes": null,
-        "quantity": 150.0,
+        "quantity": 100.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Espinaca",
+        "ingredient_id": "spinach",
+        "notes": null,
+        "quantity": 80.0,
         "section": "vegetable",
         "unit": "g"
       }
     ]
   },
-  "snapshot_id": "sha256:976a4428bdf5e3b4b96d40da3004c715f3ae1fa34269d45fca46602259a764f6",
+  "snapshot_id": "sha256:689558f05f4070921bf156c9bfc3fe7e63c98f1cdb887880b2070868f870ffa7",
   "week_end": "2026-11-22",
   "week_start": "2026-11-16"
 }

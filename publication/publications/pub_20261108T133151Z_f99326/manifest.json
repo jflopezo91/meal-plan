@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "publication_id": "pub_20261024T220518Z_7994dc",
-  "exported_at": "2026-10-24T22:05:18Z",
+  "publication_id": "pub_20261108T133151Z_f99326",
+  "exported_at": "2026-11-08T13:31:51Z",
   "selected_months": [
-    "2026-10",
-    "2026-11"
+    "2026-11",
+    "2026-12"
   ],
   "timezone": "America/Bogota",
   "plans": [
@@ -42,8 +42,8 @@
         "week_start": "2026-11-09",
         "week_end": "2026-11-15",
         "timezone": "America/Bogota",
-        "revision": 5,
-        "snapshot_id": "sha256:0a2834a729a9f164fa54888101ac972770b711211cf21b4303d326521783438f",
+        "revision": 6,
+        "snapshot_id": "sha256:2ab6b3050e723bd6e25bd02bd765e65ab3b92f6165428dc0c3c921143517270f",
         "generated_at": "2026-10-24T14:13:07.836534-05:00",
         "seed": 20261109
       },
@@ -56,8 +56,8 @@
         "week_start": "2026-11-16",
         "week_end": "2026-11-22",
         "timezone": "America/Bogota",
-        "revision": 6,
-        "snapshot_id": "sha256:976a4428bdf5e3b4b96d40da3004c715f3ae1fa34269d45fca46602259a764f6",
+        "revision": 8,
+        "snapshot_id": "sha256:689558f05f4070921bf156c9bfc3fe7e63c98f1cdb887880b2070868f870ffa7",
         "generated_at": "2026-10-24T14:13:10.321557-05:00",
         "seed": 20261116
       },
@@ -67,8 +67,8 @@
   ],
   "shopping_trips": [
     {
-      "trip_id": "trip_06970c82beab4cb5893c8186523096c2",
-      "path": "shopping-trips/trip_06970c82beab4cb5893c8186523096c2.json"
+      "trip_id": "trip_5910fe77cd354d47bd21a96b780175a6",
+      "path": "shopping-trips/trip_5910fe77cd354d47bd21a96b780175a6.json"
     }
   ]
 }

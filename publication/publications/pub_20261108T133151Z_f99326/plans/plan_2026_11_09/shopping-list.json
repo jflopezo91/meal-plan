@@ -1,6 +1,6 @@
 {
   "plan_id": "plan_2026_11_09",
-  "revision": 5,
+  "revision": 6,
   "sections": {
     "carb": [
       {
@@ -26,14 +26,6 @@
         "quantity": 40.0,
         "section": "carb",
         "unit": "g"
-      },
-      {
-        "display": "Plátano verde",
-        "ingredient_id": "platano_verde",
-        "notes": null,
-        "quantity": 100.0,
-        "section": "carb",
-        "unit": "g"
       }
     ],
     "condiment": [
@@ -49,7 +41,7 @@
         "display": "Aceitunas",
         "ingredient_id": "olives",
         "notes": null,
-        "quantity": 60.0,
+        "quantity": 30.0,
         "section": "condiment",
         "unit": "g"
       },
@@ -68,14 +60,6 @@
         "ingredient_id": "parmesan",
         "notes": null,
         "quantity": 20.0,
-        "section": "dairy",
-        "unit": "g"
-      },
-      {
-        "display": "Yogurt griego",
-        "ingredient_id": "greek_yogurt",
-        "notes": null,
-        "quantity": 50.0,
         "section": "dairy",
         "unit": "g"
       }
@@ -171,7 +155,7 @@
         "display": "Tomate",
         "ingredient_id": "tomato",
         "notes": null,
-        "quantity": 350.0,
+        "quantity": 500.0,
         "section": "vegetable",
         "unit": "g"
       },
@@ -224,24 +208,16 @@
         "unit": "g"
       },
       {
-        "display": "Tomate cherry",
-        "ingredient_id": "cherry_tomato",
+        "display": "Habichuela",
+        "ingredient_id": "green_beans",
         "notes": null,
-        "quantity": 100.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
-        "display": "Espinaca",
-        "ingredient_id": "spinach",
-        "notes": null,
-        "quantity": 80.0,
+        "quantity": 120.0,
         "section": "vegetable",
         "unit": "g"
       }
     ]
   },
-  "snapshot_id": "sha256:0a2834a729a9f164fa54888101ac972770b711211cf21b4303d326521783438f",
+  "snapshot_id": "sha256:2ab6b3050e723bd6e25bd02bd765e65ab3b92f6165428dc0c3c921143517270f",
   "week_end": "2026-11-15",
   "week_start": "2026-11-09"
 }

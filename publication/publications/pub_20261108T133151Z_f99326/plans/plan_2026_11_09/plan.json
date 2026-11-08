@@ -2,7 +2,6 @@
   "derived": {
     "carb_counts": {
       "pasta": 1,
-      "platano_verde": 1,
       "potato": 1,
       "yuca": 2
     },
@@ -16,7 +15,7 @@
   },
   "generated_at": "2026-10-24T14:13:07.836534-05:00",
   "plan_id": "plan_2026_11_09",
-  "revision": 5,
+  "revision": 6,
   "seed": 20261109,
   "slots": [
     {
@@ -379,11 +378,8 @@
     },
     {
       "assignment_id": "slot_2026-11-13_lunch",
-      "carb": "platano_verde",
-      "carb_quantity": {
-        "unit": "g",
-        "value": 100.0
-      },
+      "carb": null,
+      "carb_quantity": null,
       "date": "2026-11-13",
       "day": "fri",
       "extended_from_lunch": false,
@@ -396,30 +392,23 @@
           "unit": "g"
         },
         {
-          "display": "Tomate cherry",
-          "ingredient_id": "cherry_tomato",
-          "quantity": 100.0,
-          "role": "veg",
-          "unit": "g"
-        },
-        {
-          "display": "Espinaca",
-          "ingredient_id": "spinach",
-          "quantity": 80.0,
+          "display": "Tomate",
+          "ingredient_id": "tomato",
+          "quantity": 150.0,
           "role": "veg",
           "unit": "g"
         },
         {
           "display": "Cebolla cabezona",
           "ingredient_id": "onion",
-          "quantity": 50.0,
+          "quantity": 80.0,
           "role": "veg",
           "unit": "g"
         },
         {
-          "display": "Cebolla larga",
-          "ingredient_id": "green_onion",
-          "quantity": 20.0,
+          "display": "Habichuela",
+          "ingredient_id": "green_beans",
+          "quantity": 120.0,
           "role": "veg",
           "unit": "g"
         },
@@ -431,39 +420,11 @@
           "unit": "g"
         },
         {
-          "display": "Aceitunas",
-          "ingredient_id": "olives",
-          "quantity": 30.0,
-          "role": "other",
-          "unit": "g"
-        },
-        {
-          "display": "Albahaca",
-          "ingredient_id": "basil",
-          "quantity": 5.0,
-          "role": "herb",
-          "unit": "g"
-        },
-        {
-          "display": "Yogurt griego",
-          "ingredient_id": "greek_yogurt",
-          "quantity": 50.0,
-          "role": "dairy",
-          "unit": "g"
-        },
-        {
           "display": "Aceite de oliva",
           "ingredient_id": "olive_oil",
           "quantity": 10.0,
           "role": "fat",
           "unit": "ml"
-        },
-        {
-          "display": "Plátano verde",
-          "ingredient_id": "platano_verde",
-          "quantity": 100.0,
-          "role": "carb",
-          "unit": "g"
         }
       ],
       "linked_assignment_id": null,
@@ -473,12 +434,12 @@
         "unit": "g",
         "value": 175.0
       },
-      "recipe_id": "pollo_toscano_lunch",
-      "recipe_name": "Pollo toscano",
-      "variant_id": "pollo_toscano_lunch__carb_platano_verde"
+      "recipe_id": "pollo_guiso_habichuelas_dinner",
+      "recipe_name": "Pollo con guiso y habichuelas",
+      "variant_id": "pollo_guiso_habichuelas_dinner__carb_none"
     }
   ],
-  "snapshot_id": "sha256:0a2834a729a9f164fa54888101ac972770b711211cf21b4303d326521783438f",
+  "snapshot_id": "sha256:2ab6b3050e723bd6e25bd02bd765e65ab3b92f6165428dc0c3c921143517270f",
   "timezone": "America/Bogota",
   "week_end": "2026-11-15",
   "week_start": "2026-11-09"
