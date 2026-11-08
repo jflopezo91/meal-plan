@@ -1,21 +1,21 @@
 {
-  "plan_id": "plan_2026_10_26",
-  "revision": 2,
+  "plan_id": "plan_2026_11_16",
+  "revision": 6,
   "sections": {
     "carb": [
       {
-        "display": "Pasta",
-        "ingredient_id": "pasta",
+        "display": "Papa",
+        "ingredient_id": "potato",
         "notes": null,
-        "quantity": 40.0,
+        "quantity": 120.0,
         "section": "carb",
         "unit": "g"
       },
       {
-        "display": "Lentejas",
-        "ingredient_id": "lentils",
+        "display": "Arroz",
+        "ingredient_id": "rice",
         "notes": null,
-        "quantity": 55.0,
+        "quantity": 80.0,
         "section": "carb",
         "unit": "g"
       },
@@ -28,18 +28,10 @@
         "unit": "g"
       },
       {
-        "display": "Arroz",
-        "ingredient_id": "rice",
+        "display": "Pasta",
+        "ingredient_id": "pasta",
         "notes": null,
         "quantity": 40.0,
-        "section": "carb",
-        "unit": "g"
-      },
-      {
-        "display": "Yuca",
-        "ingredient_id": "yuca",
-        "notes": null,
-        "quantity": 70.0,
         "section": "carb",
         "unit": "g"
       }
@@ -64,38 +56,46 @@
     ],
     "dairy": [
       {
-        "display": "Crema de leche",
-        "ingredient_id": "heavy_cream",
-        "notes": null,
-        "quantity": 160.0,
-        "section": "dairy",
-        "unit": "ml"
-      },
-      {
         "display": "Crema de coco",
         "ingredient_id": "coconut_cream",
         "notes": null,
         "quantity": 100.0,
         "section": "dairy",
         "unit": "ml"
+      },
+      {
+        "display": "Crema de leche",
+        "ingredient_id": "heavy_cream",
+        "notes": null,
+        "quantity": 80.0,
+        "section": "dairy",
+        "unit": "ml"
       }
     ],
     "fat": [
       {
-        "display": "Ajonjolí",
-        "ingredient_id": "sesame_seeds",
+        "display": "Mantequilla",
+        "ingredient_id": "butter",
         "notes": null,
-        "quantity": 15.0,
+        "quantity": 7.0,
         "section": "fat",
         "unit": "g"
       }
     ],
     "protein": [
       {
+        "display": "Carne de res",
+        "ingredient_id": "beef",
+        "notes": null,
+        "quantity": 370.0,
+        "section": "protein",
+        "unit": "g"
+      },
+      {
         "display": "Pollo",
         "ingredient_id": "chicken",
         "notes": null,
-        "quantity": 720.0,
+        "quantity": 350.0,
         "section": "protein",
         "unit": "g"
       },
@@ -103,73 +103,59 @@
         "display": "Salchicha",
         "ingredient_id": "sausage",
         "notes": null,
-        "quantity": 330.0,
+        "quantity": 50.0,
         "section": "protein",
         "unit": "g"
       },
       {
-        "display": "Salmón",
-        "ingredient_id": "fish_salmon",
+        "display": "Huevo",
+        "ingredient_id": "egg",
         "notes": null,
-        "quantity": 100.0,
+        "quantity": 50.0,
         "section": "protein",
-        "unit": "g"
+        "unit": "units"
       },
       {
         "display": "Tilapia",
         "ingredient_id": "fish_tilapia",
         "notes": null,
-        "quantity": 280.0,
+        "quantity": 200.0,
         "section": "protein",
+        "unit": "g"
+      }
+    ],
+    "spice": [
+      {
+        "display": "Comino",
+        "ingredient_id": "cumin",
+        "notes": null,
+        "quantity": 1.0,
+        "section": "spice",
         "unit": "g"
       },
       {
-        "display": "Atún en filete",
-        "ingredient_id": "fish_tuna_fillet",
+        "display": "Paprika",
+        "ingredient_id": "paprika",
         "notes": null,
-        "quantity": 100.0,
-        "section": "protein",
+        "quantity": 1.0,
+        "section": "spice",
         "unit": "g"
       },
       {
-        "display": "Carne de res",
-        "ingredient_id": "beef",
+        "display": "Pimienta negra",
+        "ingredient_id": "black_pepper",
         "notes": null,
-        "quantity": 380.0,
-        "section": "protein",
+        "quantity": 1.0,
+        "section": "spice",
         "unit": "g"
       }
     ],
     "vegetable": [
       {
-        "display": "Champiñones",
-        "ingredient_id": "mushroom",
-        "notes": null,
-        "quantity": 300.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
         "display": "Zanahoria",
         "ingredient_id": "carrot",
         "notes": null,
-        "quantity": 320.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
-        "display": "Tomate",
-        "ingredient_id": "tomato",
-        "notes": null,
-        "quantity": 250.0,
-        "section": "vegetable",
-        "unit": "g"
-      },
-      {
-        "display": "Espárragos",
-        "ingredient_id": "asparagus",
-        "notes": null,
-        "quantity": 270.0,
+        "quantity": 80.0,
         "section": "vegetable",
         "unit": "g"
       },
@@ -177,15 +163,15 @@
         "display": "Pimentón",
         "ingredient_id": "bell_pepper",
         "notes": null,
-        "quantity": 380.0,
+        "quantity": 140.0,
         "section": "vegetable",
         "unit": "g"
       },
       {
-        "display": "Habichuela",
-        "ingredient_id": "green_beans",
+        "display": "Tomate",
+        "ingredient_id": "tomato",
         "notes": null,
-        "quantity": 170.0,
+        "quantity": 220.0,
         "section": "vegetable",
         "unit": "g"
       },
@@ -198,24 +184,24 @@
         "unit": "g"
       },
       {
-        "display": "Jengibre",
-        "ingredient_id": "ginger",
+        "display": "Habichuela",
+        "ingredient_id": "green_beans",
         "notes": null,
-        "quantity": 30.0,
+        "quantity": 50.0,
         "section": "vegetable",
         "unit": "g"
       },
       {
-        "display": "Brócoli",
-        "ingredient_id": "broccoli",
+        "display": "Champiñones",
+        "ingredient_id": "mushroom",
         "notes": null,
-        "quantity": 400.0,
+        "quantity": 150.0,
         "section": "vegetable",
         "unit": "g"
       }
     ]
   },
-  "snapshot_id": "sha256:e49d1add146c07120230b4de2cb47309aa04c5ec46ea90e7d734023f2fbe91cc",
-  "week_end": "2026-11-01",
-  "week_start": "2026-10-26"
+  "snapshot_id": "sha256:976a4428bdf5e3b4b96d40da3004c715f3ae1fa34269d45fca46602259a764f6",
+  "week_end": "2026-11-22",
+  "week_start": "2026-11-16"
 }

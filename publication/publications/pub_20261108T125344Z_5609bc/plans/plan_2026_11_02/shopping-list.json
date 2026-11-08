@@ -1,0 +1,173 @@
+{
+  "plan_id": "plan_2026_11_02",
+  "revision": 5,
+  "sections": {
+    "carb": [
+      {
+        "display": "Arroz",
+        "ingredient_id": "rice",
+        "notes": null,
+        "quantity": 80.0,
+        "section": "carb",
+        "unit": "g"
+      },
+      {
+        "display": "Maíz tierno",
+        "ingredient_id": "corn",
+        "notes": null,
+        "quantity": 100.0,
+        "section": "carb",
+        "unit": "g"
+      },
+      {
+        "display": "Pasta",
+        "ingredient_id": "pasta",
+        "notes": null,
+        "quantity": 40.0,
+        "section": "carb",
+        "unit": "g"
+      }
+    ],
+    "dairy": [
+      {
+        "display": "Crema de leche",
+        "ingredient_id": "heavy_cream",
+        "notes": null,
+        "quantity": 80.0,
+        "section": "dairy",
+        "unit": "ml"
+      }
+    ],
+    "fat": [
+      {
+        "display": "Aceite con achiote",
+        "ingredient_id": "achiote_oil",
+        "notes": null,
+        "quantity": 10.0,
+        "section": "fat",
+        "unit": "ml"
+      },
+      {
+        "display": "Mantequilla",
+        "ingredient_id": "butter",
+        "notes": null,
+        "quantity": 10.0,
+        "section": "fat",
+        "unit": "g"
+      }
+    ],
+    "protein": [
+      {
+        "display": "Pollo",
+        "ingredient_id": "chicken",
+        "notes": null,
+        "quantity": 350.0,
+        "section": "protein",
+        "unit": "g"
+      },
+      {
+        "display": "Salmón",
+        "ingredient_id": "fish_salmon",
+        "notes": null,
+        "quantity": 200.0,
+        "section": "protein",
+        "unit": "g"
+      },
+      {
+        "display": "Higado de res",
+        "ingredient_id": "liver",
+        "notes": null,
+        "quantity": 185.0,
+        "section": "protein",
+        "unit": "g"
+      },
+      {
+        "display": "Cerdo",
+        "ingredient_id": "pork",
+        "notes": null,
+        "quantity": 230.0,
+        "section": "protein",
+        "unit": "g"
+      }
+    ],
+    "spice": [
+      {
+        "display": "Comino",
+        "ingredient_id": "cumin",
+        "notes": null,
+        "quantity": 2.0,
+        "section": "spice",
+        "unit": "g"
+      }
+    ],
+    "vegetable": [
+      {
+        "display": "Champiñones",
+        "ingredient_id": "mushroom",
+        "notes": null,
+        "quantity": 150.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Espárragos",
+        "ingredient_id": "asparagus",
+        "notes": null,
+        "quantity": 150.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Zanahoria",
+        "ingredient_id": "carrot",
+        "notes": null,
+        "quantity": 80.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Pimentón",
+        "ingredient_id": "bell_pepper",
+        "notes": null,
+        "quantity": 60.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Arverja",
+        "ingredient_id": "peas",
+        "notes": null,
+        "quantity": 50.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Habichuela",
+        "ingredient_id": "green_beans",
+        "notes": null,
+        "quantity": 170.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Brócoli",
+        "ingredient_id": "broccoli",
+        "notes": null,
+        "quantity": 80.0,
+        "section": "vegetable",
+        "unit": "g"
+      },
+      {
+        "display": "Tomate",
+        "ingredient_id": "tomato",
+        "notes": null,
+        "quantity": 150.0,
+        "section": "vegetable",
+        "unit": "g"
+      }
+    ]
+  },
+  "snapshot_id": "sha256:19c1610d06d9984d384ecb5b0964d0509ec4a1dc997eca2268f0a05bb1c3b6a8",
+  "week_end": "2026-11-08",
+  "week_start": "2026-11-02"
+}

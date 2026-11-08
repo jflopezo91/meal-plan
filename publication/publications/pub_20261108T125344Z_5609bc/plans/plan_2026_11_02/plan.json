@@ -1,0 +1,439 @@
+{
+  "derived": {
+    "carb_counts": {
+      "corn": 1,
+      "pasta": 1,
+      "rice": 2
+    },
+    "protein_counts": {
+      "beef": 1,
+      "chicken": 2,
+      "egg": 0,
+      "fish": 1,
+      "pork": 1
+    }
+  },
+  "generated_at": "2026-10-24T14:13:05.520802-05:00",
+  "plan_id": "plan_2026_11_02",
+  "revision": 5,
+  "seed": 20261102,
+  "slots": [
+    {
+      "assignment_id": "slot_2026-11-02_lunch",
+      "carb": "pasta",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 40.0
+      },
+      "date": "2026-11-02",
+      "day": "mon",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Pollo",
+          "ingredient_id": "chicken",
+          "quantity": 175.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Champiñones",
+          "ingredient_id": "mushroom",
+          "quantity": 150.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla larga",
+          "ingredient_id": "green_onion",
+          "quantity": 20.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Perejil",
+          "ingredient_id": "parsley",
+          "quantity": 5.0,
+          "role": "herb",
+          "unit": "g"
+        },
+        {
+          "display": "Tomillo",
+          "ingredient_id": "thyme",
+          "quantity": 2.0,
+          "role": "herb",
+          "unit": "g"
+        },
+        {
+          "display": "Laurel",
+          "ingredient_id": "bay_leaf",
+          "quantity": 2.0,
+          "role": "spice",
+          "unit": "units"
+        },
+        {
+          "display": "Crema de leche",
+          "ingredient_id": "heavy_cream",
+          "quantity": 80.0,
+          "role": "dairy",
+          "unit": "ml"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Pasta",
+          "ingredient_id": "pasta",
+          "quantity": 40.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "chicken",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 175.0
+      },
+      "recipe_id": "chicken_fricassee",
+      "recipe_name": "Chicken Fricassée",
+      "variant_id": "chicken_fricassee__carb_pasta"
+    },
+    {
+      "assignment_id": "slot_2026-11-03_lunch",
+      "carb": "corn",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 100.0
+      },
+      "date": "2026-11-03",
+      "day": "tue",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Salmón",
+          "ingredient_id": "fish_salmon",
+          "quantity": 200.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Espárragos",
+          "ingredient_id": "asparagus",
+          "quantity": 150.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Limón",
+          "ingredient_id": "lemon",
+          "quantity": 0.5,
+          "role": "condiment",
+          "unit": "units"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla larga",
+          "ingredient_id": "green_onion",
+          "quantity": 15.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Romero",
+          "ingredient_id": "rosemary",
+          "quantity": 3.0,
+          "role": "herb",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Maíz tierno",
+          "ingredient_id": "corn",
+          "quantity": 100.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "fish",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 200.0
+      },
+      "recipe_id": "salmon_horneado",
+      "recipe_name": "Salmón horneado",
+      "variant_id": "salmon_horneado__carb_corn"
+    },
+    {
+      "assignment_id": "slot_2026-11-04_lunch",
+      "carb": "rice",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 40.0
+      },
+      "date": "2026-11-04",
+      "day": "wed",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Higado de res",
+          "ingredient_id": "liver",
+          "quantity": 185.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cilantro",
+          "ingredient_id": "cilantro",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite con achiote",
+          "ingredient_id": "achiote_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Mantequilla",
+          "ingredient_id": "butter",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "g"
+        },
+        {
+          "display": "Comino",
+          "ingredient_id": "cumin",
+          "quantity": 2.0,
+          "role": "spice",
+          "unit": "g"
+        },
+        {
+          "display": "Arroz",
+          "ingredient_id": "rice",
+          "quantity": 40.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "beef",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 185.0
+      },
+      "recipe_id": "higado_encebollado",
+      "recipe_name": "Higado Encebollado",
+      "variant_id": "higado_encebollado__carb_rice"
+    },
+    {
+      "assignment_id": "slot_2026-11-05_lunch",
+      "carb": "rice",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 40.0
+      },
+      "date": "2026-11-05",
+      "day": "thu",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Cerdo",
+          "ingredient_id": "pork",
+          "quantity": 230.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Zanahoria",
+          "ingredient_id": "carrot",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Pimentón",
+          "ingredient_id": "bell_pepper",
+          "quantity": 60.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Arverja",
+          "ingredient_id": "peas",
+          "quantity": 50.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Habichuela",
+          "ingredient_id": "green_beans",
+          "quantity": 50.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Brócoli",
+          "ingredient_id": "broccoli",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 60.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Arroz",
+          "ingredient_id": "rice",
+          "quantity": 40.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "pork",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 230.0
+      },
+      "recipe_id": "arroz_salteado_cerdo",
+      "recipe_name": "Arroz salteado con cerdo",
+      "variant_id": "arroz_salteado_cerdo__carb_rice"
+    },
+    {
+      "assignment_id": "slot_2026-11-06_lunch",
+      "carb": null,
+      "carb_quantity": null,
+      "date": "2026-11-06",
+      "day": "fri",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Pollo",
+          "ingredient_id": "chicken",
+          "quantity": 175.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Tomate",
+          "ingredient_id": "tomato",
+          "quantity": 150.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Habichuela",
+          "ingredient_id": "green_beans",
+          "quantity": 120.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "chicken",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 175.0
+      },
+      "recipe_id": "pollo_guiso_habichuelas_dinner",
+      "recipe_name": "Pollo con guiso y habichuelas",
+      "variant_id": "pollo_guiso_habichuelas_dinner__carb_none"
+    }
+  ],
+  "snapshot_id": "sha256:19c1610d06d9984d384ecb5b0964d0509ec4a1dc997eca2268f0a05bb1c3b6a8",
+  "timezone": "America/Bogota",
+  "week_end": "2026-11-08",
+  "week_start": "2026-11-02"
+}

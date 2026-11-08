@@ -1,0 +1,485 @@
+{
+  "derived": {
+    "carb_counts": {
+      "pasta": 1,
+      "platano_verde": 1,
+      "potato": 1,
+      "yuca": 2
+    },
+    "protein_counts": {
+      "beef": 1,
+      "chicken": 3,
+      "egg": 0,
+      "fish": 1,
+      "pork": 0
+    }
+  },
+  "generated_at": "2026-10-24T14:13:07.836534-05:00",
+  "plan_id": "plan_2026_11_09",
+  "revision": 5,
+  "seed": 20261109,
+  "slots": [
+    {
+      "assignment_id": "slot_2026-11-09_lunch",
+      "carb": "yuca",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 70.0
+      },
+      "date": "2026-11-09",
+      "day": "mon",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Pollo",
+          "ingredient_id": "chicken",
+          "quantity": 175.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Zanahoria",
+          "ingredient_id": "carrot",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Zucchini",
+          "ingredient_id": "zucchini",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Pimentón",
+          "ingredient_id": "bell_pepper",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Brócoli",
+          "ingredient_id": "broccoli",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla larga",
+          "ingredient_id": "green_onion",
+          "quantity": 20.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Jengibre",
+          "ingredient_id": "ginger",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Miel",
+          "ingredient_id": "honey",
+          "quantity": 15.0,
+          "role": "condiment",
+          "unit": "ml"
+        },
+        {
+          "display": "Salsa de soya",
+          "ingredient_id": "soy_sauce",
+          "quantity": 20.0,
+          "role": "condiment",
+          "unit": "ml"
+        },
+        {
+          "display": "Ajonjolí",
+          "ingredient_id": "sesame_seeds",
+          "quantity": 5.0,
+          "role": "garnish",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de ajonjolí",
+          "ingredient_id": "sesame_oil",
+          "quantity": 5.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Yuca",
+          "ingredient_id": "yuca",
+          "quantity": 70.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "chicken",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 175.0
+      },
+      "recipe_id": "pollo_asiatico",
+      "recipe_name": "Pollo asiático",
+      "variant_id": "pollo_asiatico__carb_yuca"
+    },
+    {
+      "assignment_id": "slot_2026-11-10_lunch",
+      "carb": "pasta",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 40.0
+      },
+      "date": "2026-11-10",
+      "day": "tue",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Atún en lata",
+          "ingredient_id": "fish_tuna_canned",
+          "quantity": 280.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Berenjena",
+          "ingredient_id": "eggplant",
+          "quantity": 120.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Zucchini",
+          "ingredient_id": "zucchini",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Zucchini amarillo",
+          "ingredient_id": "yellow_zucchini",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 60.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Tomate",
+          "ingredient_id": "tomato",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Aceitunas",
+          "ingredient_id": "olives",
+          "quantity": 30.0,
+          "role": "other",
+          "unit": "g"
+        },
+        {
+          "display": "Pasta de tomate",
+          "ingredient_id": "tomato_paste",
+          "quantity": 50.0,
+          "role": "condiment",
+          "unit": "g"
+        },
+        {
+          "display": "Queso parmesano",
+          "ingredient_id": "parmesan",
+          "quantity": 20.0,
+          "role": "dairy",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Pasta",
+          "ingredient_id": "pasta",
+          "quantity": 40.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "fish",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 280.0
+      },
+      "recipe_id": "pasta_tefy",
+      "recipe_name": "Pasta Tefy",
+      "variant_id": "pasta_tefy__carb_pasta"
+    },
+    {
+      "assignment_id": "slot_2026-11-11_lunch",
+      "carb": "potato",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 120.0
+      },
+      "date": "2026-11-11",
+      "day": "wed",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Carne de res",
+          "ingredient_id": "beef",
+          "quantity": 185.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Tomate",
+          "ingredient_id": "tomato",
+          "quantity": 250.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla larga",
+          "ingredient_id": "green_onion",
+          "quantity": 20.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Papa",
+          "ingredient_id": "potato",
+          "quantity": 120.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "beef",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 185.0
+      },
+      "recipe_id": "sudado_carne",
+      "recipe_name": "Sudado de carne",
+      "variant_id": "sudado_carne__carb_potato"
+    },
+    {
+      "assignment_id": "slot_2026-11-12_lunch",
+      "carb": "yuca",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 70.0
+      },
+      "date": "2026-11-12",
+      "day": "thu",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Pollo",
+          "ingredient_id": "chicken",
+          "quantity": 175.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla morada",
+          "ingredient_id": "red_onion",
+          "quantity": 220.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Pimentón rojo",
+          "ingredient_id": "red_bell_pepper",
+          "quantity": 120.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Pimentón verde",
+          "ingredient_id": "green_bell_pepper",
+          "quantity": 130.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Apio",
+          "ingredient_id": "celery",
+          "quantity": 120.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Manzana verde",
+          "ingredient_id": "green_apple",
+          "quantity": 180.0,
+          "role": "other",
+          "unit": "g"
+        },
+        {
+          "display": "Yuca",
+          "ingredient_id": "yuca",
+          "quantity": 70.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "chicken",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 175.0
+      },
+      "recipe_id": "ensalada_pollo_manzana",
+      "recipe_name": "Ensalada de pollo con manzana",
+      "variant_id": "ensalada_pollo_manzana__carb_yuca"
+    },
+    {
+      "assignment_id": "slot_2026-11-13_lunch",
+      "carb": "platano_verde",
+      "carb_quantity": {
+        "unit": "g",
+        "value": 100.0
+      },
+      "date": "2026-11-13",
+      "day": "fri",
+      "extended_from_lunch": false,
+      "ingredients": [
+        {
+          "display": "Pollo",
+          "ingredient_id": "chicken",
+          "quantity": 175.0,
+          "role": "protein",
+          "unit": "g"
+        },
+        {
+          "display": "Tomate cherry",
+          "ingredient_id": "cherry_tomato",
+          "quantity": 100.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Espinaca",
+          "ingredient_id": "spinach",
+          "quantity": 80.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla cabezona",
+          "ingredient_id": "onion",
+          "quantity": 50.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Cebolla larga",
+          "ingredient_id": "green_onion",
+          "quantity": 20.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Ajo",
+          "ingredient_id": "garlic",
+          "quantity": 10.0,
+          "role": "veg",
+          "unit": "g"
+        },
+        {
+          "display": "Aceitunas",
+          "ingredient_id": "olives",
+          "quantity": 30.0,
+          "role": "other",
+          "unit": "g"
+        },
+        {
+          "display": "Albahaca",
+          "ingredient_id": "basil",
+          "quantity": 5.0,
+          "role": "herb",
+          "unit": "g"
+        },
+        {
+          "display": "Yogurt griego",
+          "ingredient_id": "greek_yogurt",
+          "quantity": 50.0,
+          "role": "dairy",
+          "unit": "g"
+        },
+        {
+          "display": "Aceite de oliva",
+          "ingredient_id": "olive_oil",
+          "quantity": 10.0,
+          "role": "fat",
+          "unit": "ml"
+        },
+        {
+          "display": "Plátano verde",
+          "ingredient_id": "platano_verde",
+          "quantity": 100.0,
+          "role": "carb",
+          "unit": "g"
+        }
+      ],
+      "linked_assignment_id": null,
+      "meal": "lunch",
+      "protein": "chicken",
+      "protein_quantity": {
+        "unit": "g",
+        "value": 175.0
+      },
+      "recipe_id": "pollo_toscano_lunch",
+      "recipe_name": "Pollo toscano",
+      "variant_id": "pollo_toscano_lunch__carb_platano_verde"
+    }
+  ],
+  "snapshot_id": "sha256:0a2834a729a9f164fa54888101ac972770b711211cf21b4303d326521783438f",
+  "timezone": "America/Bogota",
+  "week_end": "2026-11-15",
+  "week_start": "2026-11-09"
+}
